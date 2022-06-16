@@ -1,0 +1,14 @@
+a-¿Cómo queda el máster después de estos cambios?
+A-Queda con la información que tenía al principio sumada a la que tenían las otras ramas, es decir,
+se modificó conservando los datos que ya tenía, modificando los que cambiamos y agregando nuevos.
+
+b-¿Beta pudo ver todos los cambios que se realizaron?
+B-Si, haciendo git pull y trayendo en mi local todos los cambios realizados por los otros integrantes del equipo
+
+c-¿que debió hacer (todos los comandos) en el punto 5 para poder hacer el merge ?
+C-
+git branch
+git checkout main
+git branch
+git merge lopecane -m "Integro la rama lopecane a main"
+git push
